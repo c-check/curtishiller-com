@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curtis Hiller&rsquo;s &ldquo;Website&rdquo;</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="site">
+    <item
+      v-for="item in items"
+      v-bind:item="item.data"
+      v-bind:date="item.date"
+    ></item>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>

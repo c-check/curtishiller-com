@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+#site {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 900px;
+	padding: 20px;
+	font-size: 16px;
+	font-family: 'Noto Sans', sans-serif;
+}
+@media only screen and (min-width:1200px) {
+  #site {
+    max-width: none;
+    width: 64%;
+    max-width: 1024px;
+  }
+}
+
+#site > div {
+	margin: 16px auto;
+  padding: 20px;
+	width: 100%;
+  background-color: #EFEFEF;
+}
+
+#site img {
+  width: 100%;
+}
+
+.date {
+	font-size: 75%;
+	margin-bottom: 10px;
+}
+.tweet .them {
+  margin-bottom: 7px;
+  font-size: 107%;
+	font-weight: bold;
+}
+.them + .text {
+  padding-left: 14px;
+}
+.tweet .media {
+	margin: 10px auto;
+	width: 100%;
+	text-align: center;
+}
+.tweet .media a {
+	display: inline-block;
+}
+.tweet .media img {
+	max-width: 100%;
+}
+
+.swarm .location {
+  margin: 0 0 7px;
+  font-weight: bold;
+}
+.swarm .text {
+  display: block;
+  margin: 7px 0;
+}
+
